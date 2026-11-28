@@ -7,7 +7,7 @@ using System.Text;
 
 namespace company.DAL.Data.Contexts
 {
-    internal class CompanyDbContext : DbContext 
+    public class CompanyDbContext : DbContext 
     {
 
 

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace company.DAL.Data.Configrations
 {
-    internal class DepartmentConfigrations : IEntityTypeConfiguration<Department>
+    public class DepartmentConfigrations : IEntityTypeConfiguration<Department>
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
